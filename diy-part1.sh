@@ -20,8 +20,11 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 
-#git clone https://github.com/ysc3839/luci-proto-minieap.git package/luci-proto-minieap
-#git clone https://github.com/ysc3839/openwrt-minieap.git -b gzhu package/minieap
+# 添加 luci-proto-minieap 插件源
+sed -i '$a src-git luci-proto-minieap https://github.com/ysc3839/luci-proto-minieap.git' feeds.conf.default
+
+# 添加 openwrt-minieap 插件源
+sed -i '$a src-git openwrt-minieap https://github.com/ysc3839/openwrt-minieap.git' feeds.conf.default
 # 添加插件源码
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # passwall依赖
