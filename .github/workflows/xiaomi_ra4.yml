@@ -69,7 +69,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
     - name: Debug feeds.conf.default
-      run: cat feeds.conf.default
+      run: cat openwrt/feeds.conf.default
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
