@@ -18,13 +18,8 @@
 # sed -i '$a src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' feeds.conf.default
 # sed -i '$a src-git dnsfilter https://github.com/garypang13/luci-app-dnsfilter' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-
-
-# 添加 luci-proto-minieap 插件源
-sed -i '$a src-git luci-proto-minieap https://github.com/ysc3839/luci-proto-minieap.git' feeds.conf.default
-
-# 添加 openwrt-minieap 插件源
-sed -i '$a src-git openwrt-minieap https://github.com/ysc3839/openwrt-minieap.git' feeds.conf.default
+sed -i '$a src-git luci-proto-minieap https://github.com/ysc3839/luci-proto-minieap' feeds.conf.default
+sed -i '$a src-git openwrt-minieap https://github.com/ysc3839/openwrt-minieap' feeds.conf.default
 # 添加插件源码
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # passwall依赖
