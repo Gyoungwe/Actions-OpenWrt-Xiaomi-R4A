@@ -19,6 +19,9 @@
 # sed -i '$a src-git dnsfilter https://github.com/garypang13/luci-app-dnsfilter' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
+
+#git clone https://github.com/ysc3839/luci-proto-minieap.git package/luci-proto-minieap
+#git clone https://github.com/ysc3839/openwrt-minieap.git -b gzhu package/minieap
 # 添加插件源码
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # passwall依赖
