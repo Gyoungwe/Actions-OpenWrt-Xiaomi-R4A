@@ -1,0 +1,5 @@
+src-git luci https://github.com/openwrt/luci.git
+src-git packages https://github.com/openwrt/packages.git
+src-git routing https://github.com/openwrt/routing.git
+src-git luci-proto-minieap https://github.com/ysc3839/luci-proto-minieap.git
+src-git openwrt-minieap https://github.com/ysc3839/openwrt-minieap.git
